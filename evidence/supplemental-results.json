@@ -1,0 +1,8 @@
+{
+  "spaceActivation": true,
+  "hoverBothCards": true,
+  "touchScrollAndTap": true,
+  "keyboardPopup": true,
+  "reflowEquivalent200Percent": true,
+  "nativeBrowserZoom": "not verified"
+}

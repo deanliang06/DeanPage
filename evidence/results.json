@@ -1,0 +1,31 @@
+[
+  {
+    "viewport": "1440x900",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "viewport": "1920x1080",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "viewport": "390x844",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "viewport": "360x800",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "viewport": "768x1024",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "scenario": "reduced-motion",
+    "passed": true
+  }
+]
