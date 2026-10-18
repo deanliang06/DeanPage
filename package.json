@@ -1,6 +1,13 @@
-{
-  "name": "quiet-macintosh",
-  "private": true,
-  "scripts": { "start": "node server.cjs", "test": "node tests/acceptance.cjs", "test:supplemental": "node tests/supplemental.cjs" },
-  "devDependencies": { "playwright": "1.58.2", "@axe-core/playwright": "4.11.0" }
+﻿{
+    "name":  "quiet-macintosh",
+    "private":  true,
+    "scripts":  {
+                    "start":  "node server.cjs",
+                    "test":  "node tests/redesign.cjs",
+                    "test:supplemental":  "node tests/supplemental.cjs"
+                },
+    "devDependencies":  {
+                            "playwright":  "1.58.2",
+                            "@axe-core/playwright":  "4.11.0"
+                        }
 }

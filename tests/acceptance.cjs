@@ -6,7 +6,7 @@ const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const base = process.env.BASE_URL || 'http://127.0.0.1:5173';
 const quotes = {
-  Pizza: "My favorite pizza comes from Otto's in New York. And, no, I am not trying to be different.",
+  Pizza: "My favorite pizza comes from Ops in New York. And, no, I am not trying to be different.",
   Tennis: 'Top 10 player in my conference multiple years in a row and top 50 in New England. However, the glory days may be over now...',
 };
 const results = [];

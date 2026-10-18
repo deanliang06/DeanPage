@@ -1,30 +1,17 @@
-# DeanPage
+﻿# Dean — Portfolio
 
-A static Three.js scene with a close-up vintage Macintosh, curved CRT glass,
-procedural plastic and wood textures, studio lighting, and a wired mouse.
+A responsive, content-first portfolio built with HTML, CSS, and a small JavaScript module. Projects are grouped into Agentic Systems Design and Unix / Systems Software Engineering, followed by expertise, Mantis experience, and personal interests.
 
 ## Preview
 
-Open `index.html` with the VS Code Live Server extension, or run `npm start`
-and visit http://127.0.0.1:5173. JavaScript modules require an HTTP server;
-opening the file directly does not work. Three.js, VT323, and the skill icons
-are bundled locally; viewing the page does not require CDN access.
-
-Power on zooms into the CRT and opens Dean's responsive, scrollable portfolio.
-Project cards open their GitHub repositories in new tabs. Pizza and tennis
-open accessible shell dialogs with 400 ms typing, Escape dismissal, and focus
-restoration. Reduced motion skips the zoom, flicker, and typing animation.
+Run `npm start` and open http://127.0.0.1:5173. Assets are local; the site does not depend on a CDN. The introduction and projects also work without JavaScript. JavaScript enables the pizza and tennis dialogs.
 
 ## Verification
 
-Install test dependencies with `npm install`, then `npx playwright install chromium`.
-Start the HTTP server with `npm start` and run `npm test` in a second terminal.
-To use an installed browser in PowerShell, set `$env:BROWSER_PATH` to its executable.
-`PORT` changes the server port; `BASE_URL` changes the test target.
+Run `npm test` with dependencies installed and Google Chrome at its standard Windows installation path. The suite checks 1440, 768, 390, and 360 pixel widths, image loading, horizontal overflow, console errors, dialog dismissal and focus restoration, and axe accessibility. Screenshots are saved under `evidence/redesign-*.png`.
 
-The suite uses the real Three.js scene at 1440×900, 1920×1080, 390×844,
-360×800, and 768×1024. It checks keyboard activation, transitions, responsive
-layout, exact copy, asset loading, all card click targets, popup streaming with
-a controlled animation clock, focus behavior, scrolling, reduced motion, and
-axe accessibility. Screenshots and results are saved under `evidence/`.
-See `IMPLEMENTATION.md` for the acceptance-test audit and visual review.
+The original 3D scene and its legacy test files remain in the repository for reference, but are no longer loaded by the page.
+
+## Project copy
+
+TinyShell details and benchmark figures come from its public README: https://github.com/deanliang06/TinyShell. Figures describe two local workloads, medians of three trials, and shell-process private working set only. TinyShell is explicitly identified as Windows work within the broader systems category. Harness details come from https://github.com/deanliang06/AgenticCodingHarness. Mantis and personal content are preserved from the original page.
